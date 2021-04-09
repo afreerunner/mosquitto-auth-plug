@@ -5,4 +5,4 @@ FROM gitpod/workspace-full
 # RUN brew install bastet
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN apt install -y libcjson1 libcjson-dev
+RUN sudo apt install -y libcjson1 libcjson-dev
